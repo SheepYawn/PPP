@@ -344,6 +344,7 @@ void exercise12()
 		different = true;
 		valid_input = false;
 		input.clear();
+		cin.clear();		//单独输入ctrl+z会使cin为错误状态，程序进入死循环。
 		Cow = 0;
 		Bull = 0;
 		++count;
@@ -353,6 +354,7 @@ void exercise12()
 		cout << c;
 	cout << " is the right answer!\n" << "Rounds you have spent: " << count << '\n';
 }
+
 
 //读入多对数据，计算特殊名称对应的值之和。
 void exercise14()
@@ -431,7 +433,6 @@ void exercise14()
 			//	cout << "days == " << days[i] << ", value == " << values[i] << '\n';
 			//}
 		}
-
 		number = 0;
 		is_integer = true;
 		is_negative = false;

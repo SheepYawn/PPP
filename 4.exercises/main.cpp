@@ -6,8 +6,8 @@ int main()
 	//exercise7();
 	//exercise8();
 	//exercise11();
-	//exercise12();
-	exercise14();
+	exercise12();
+	//exercise14();
 	
 	return 0;
 }

@@ -10,13 +10,13 @@ int main()
 	//exercise6();
 	//exercise7();
 	//exercise9();
-	exercise10();
+	//exercise10();
 	//exercise11();
 	//exercise12();
 	//exercise15();
 	//exercise16();
 	//exercise17();
-	//exercise18();
+	exercise18();
 
 	return 0;
 }

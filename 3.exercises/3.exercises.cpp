@@ -462,6 +462,7 @@ void exercise17()
 
 
 //输入一对名字和值，检查是否重复输入。
+//rework version in Chapter5 exercise4
 void exercise18()
 {
 	cout << "Please enter a set of name-and-value pairs.(Input 'NoName 0' to terminate)" << '\n';
@@ -571,7 +572,6 @@ void exercise18()
 			<< "Input 2 to search by value" << "\n"
 			<< "Input a character to exit." << "\n";
 	}
-
 }
 
 

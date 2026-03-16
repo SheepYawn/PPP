@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-	int i = 1;
-	cout << -i;
+	unsigned int num = -1;
+
+		std::cout << "num == " << num << '\n';
+
+
+
 }
