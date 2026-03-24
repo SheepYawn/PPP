@@ -8,8 +8,8 @@ int main()
 	try {
 		//exercise4();
 		//exercise5();
-		//exercise6();
-		exercise8();
+		exercise6();
+		//exercise8();
 
 	}
 	catch (exception& e)

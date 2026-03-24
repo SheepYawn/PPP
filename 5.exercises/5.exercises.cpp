@@ -1,6 +1,6 @@
 module exercises;
 
-void error(string s)
+void error(std::string s)
 {
 	throw runtime_error(s);
 }
@@ -20,9 +20,18 @@ public:
 };
 
 //function for exercise4 and exercise8
-//判断字符串是不是正整数和0
-bool is_integer(string s)
+//处理数字前的正号'+'
+void deal_with_plus_sign(string &s)
 {
+	if (s[0] == '+')
+		s.erase(0, 1);
+}
+
+//function for exercise4 and exercise8
+//判断字符串是不是正整数和0
+bool is_integer(string &s)
+{
+	deal_with_plus_sign(s);
 	for (char x : s)
 	{
 		if (x < '0' || x > '9')
@@ -39,9 +48,9 @@ int string_to_positive_integer(string s)
 	{
 		int num = 0;
 		int digit = 1;
-		int size = s.size();
+		size_t size = s.size();
 		int add = -1;
-		for (int i = size - 1; i > -1; --i)
+		for (size_t i = size - 1; i > -1; --i)
 		{
 			add = (s[i] - '0') * digit;
 			//边界检查
@@ -256,6 +265,7 @@ Token Token_stream::get()
 	}
 	default:
 		cerr << "Bad Token" << '\n';
+		return -100;
 	}
 }
 
@@ -296,6 +306,7 @@ int primary()
 		return t.value;
 	default:
 		error("primary expected");
+		return -100;
 	}
 }
 
@@ -350,7 +361,7 @@ void exercise5()
 //生成不重复的随机字母组合
 void spawn_random_num(vector<char> &target)
 {
-	time_t seconds = time(0);
+	unsigned int seconds = unsigned int(time(0));
 	default_random_engine engine(seconds);
 	uniform_int_distribution<int> dist(97, 122);
 	int random_num = '#';
@@ -409,6 +420,24 @@ bool check_input(string s)
 	}
 }
 
+//function for exercise6
+void print_introduction()
+{
+	cout << "Bulls and Cows! Have a try to guess my letters." << '\n'
+		<< "You get a 'Bull' for each lowercase letter that is correct and in the correct position." << '\n'
+		<< "You get a 'Cow' for each lowercase letter that is correct but in the wrong position." << '\n'
+		<< "Please enter 4 different lowercase letters." << '\n';
+}
+
+//function for exercise6
+void leak_answer(vector<char> target)
+{
+	cout << "The target is:";
+	for (int i = 0; i < target.size(); ++i)
+		cout << target[i];
+	cout << '!' << '\n';
+}
+
 //redo exercise12 in Chapter 4
 //这次是生成4个不重复字母
 void exercise6()
@@ -417,16 +446,10 @@ void exercise6()
 	vector<char> target;
 	spawn_random_num(target);
 	//cout << "Random letters is ready!" << '\n';
-	//看答案
-	//cout << "The target is:";
-	//for (int i = 0; i < target.size(); ++i)
-	//	cout << target[i];
-	//cout << '!' << '\n';
 
-	cout << "Bulls and Cows! Have a try to guess my letters." << '\n'
-		<< "You get a 'Bull' for each lowercase letter that is correct and in the correct position." << '\n'
-		<< "You get a 'Cow' for each lowercase letter that is correct but in the wrong position." << '\n'
-		<< "Please enter 4 different lowercase letters." << '\n';
+	leak_answer(target);
+
+	print_introduction();
 
 	int count = 1;
 	bool valid_input = false;

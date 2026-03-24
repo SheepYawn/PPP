@@ -9,7 +9,7 @@ public:
 	Token(char k, double v) :kind{k}, value{v}{}
 };
 
-void error(string s)
+void error(std::string s)
 {
 	throw runtime_error(s);
 }
@@ -101,6 +101,7 @@ double expression();
 // We chose to declare (“forward declare”) expression().
 
 //处理阶乘
+//		不能处理连续阶乘 x!!。可以去看第六章的secondary();
 void factorial(double &d)
 {
 	Token c = ts.get();
