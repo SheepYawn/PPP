@@ -436,7 +436,7 @@ string_numbers get_string_numbers(const vector<string>& s)
 		if (longest < each_size)
 			longest = each_size;
 		if (shortest > each_size)
-			shortest = each_size;
+			shortest = each_size; 
 	}
 	s_nums.longest = longest;
 	s_nums.shortest = shortest;
