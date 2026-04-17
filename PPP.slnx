@@ -3,29 +3,30 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="00.draft/00.draft.vcxproj" />
-  <Project Path="01/01.vcxproj" />
-  <Project Path="02.drill/02.drill.vcxproj" />
-  <Project Path="02.exercises/02.exercises.vcxproj" />
-  <Project Path="02/02.vcxproj" />
-  <Project Path="03.drill/03.drill.vcxproj" />
-  <Project Path="03.exercises/03.exercises.vcxproj" />
-  <Project Path="03/03.vcxproj" />
-  <Project Path="04.drill/04.drill.vcxproj" />
-  <Project Path="04.exercises/04.exercises.vcxproj" />
-  <Project Path="04/04.vcxproj" />
-  <Project Path="05.drill/05.drill.vcxproj" />
-  <Project Path="05.exercises/05.exercises.vcxproj" />
-  <Project Path="05/05.vcxproj" />
-  <Project Path="06.drill/06.drill.vcxproj" />
-  <Project Path="06/06.vcxproj" />
-  <Project Path="07.drill/07.drill.vcxproj" />
-  <Project Path="07.exercises/07.exercises.vcxproj" />
-  <Project Path="07/07.vcxproj" />
-  <Project Path="08.drill/08.drill.vcxproj" />
-  <Project Path="08.exercises/08.exercises.vcxproj" />
-  <Project Path="08/08.vcxproj" />
-  <Project Path="09.drill/09.drill.vcxproj" />
-  <Project Path="09/09.vcxproj" />
-  <Project Path="10/10.vcxproj" />
+  <Project Path="00.draft/00.draft.vcxproj" Id="8a7ee48b-802a-4f82-929c-9f042d94be9b" />
+  <Project Path="01/01.vcxproj" Id="56d7e470-ac51-4273-a1ac-6fef91d85aaf" />
+  <Project Path="02.drill/02.drill.vcxproj" Id="547202e4-b9e9-4cf6-955b-d6aed7ade98a" />
+  <Project Path="02.exercises/02.exercises.vcxproj" Id="ebab82d6-9912-49e9-853e-c3edd5e40c77" />
+  <Project Path="02/02.vcxproj" Id="a4897022-dd39-483f-94d6-517cfbd404bc" />
+  <Project Path="03.drill/03.drill.vcxproj" Id="5d66735c-7643-4947-a890-bee875a17a8c" />
+  <Project Path="03.exercises/03.exercises.vcxproj" Id="083a868d-f73b-4e83-9fbf-bde9bb34781d" />
+  <Project Path="03/03.vcxproj" Id="0ac45a3c-6f33-4b72-a8a3-41ea4ef68962" />
+  <Project Path="04.drill/04.drill.vcxproj" Id="5de541d6-cda9-4947-8ee9-5b59940c1eea" />
+  <Project Path="04.exercises/04.exercises.vcxproj" Id="28cc21b0-7f3a-4592-a2e0-e58f2c5da2c0" />
+  <Project Path="04/04.vcxproj" Id="222f1e93-a8c9-4f4b-a4b6-197ca7295e0f" />
+  <Project Path="05.drill/05.drill.vcxproj" Id="fcaa7d7b-2d07-4dca-b6ed-d1813d1f9dce" />
+  <Project Path="05.exercises/05.exercises.vcxproj" Id="060856cc-b45d-468c-820b-f1dbc44a8d34" />
+  <Project Path="05/05.vcxproj" Id="b020ba6b-c070-4f84-9a6b-287ee8f35bcc" />
+  <Project Path="06.drill/06.drill.vcxproj" Id="074a2181-6abc-43ac-a840-2a9e05c2ac11" />
+  <Project Path="06/06.vcxproj" Id="3bc243e1-96e0-4d25-946c-964ded712e3d" />
+  <Project Path="07.drill/07.drill.vcxproj" Id="ff2e9991-7cb4-42f9-8e27-fc1be5cb98fb" />
+  <Project Path="07.exercises/07.exercises.vcxproj" Id="0f4b2cba-5d0c-425e-912b-ed8ea7ee020a" />
+  <Project Path="07/07.vcxproj" Id="22c3fdb9-84ba-427d-ae72-863d49e47d92" />
+  <Project Path="08.drill/08.drill.vcxproj" Id="df222171-bfa2-4702-9ee6-5f51e4794810" />
+  <Project Path="08.exercises/08.exercises.vcxproj" Id="5fb2c0f3-2f7c-4ce9-a21f-bc2b07396106" />
+  <Project Path="08/08.vcxproj" Id="1627dc3b-e32c-4a81-a4aa-34a1a0c6e41a" />
+  <Project Path="09.drill/09.drill.vcxproj" Id="d1e2409e-a219-4f6e-b503-fe4e40c3ae8d" />
+  <Project Path="09/09.vcxproj" Id="90792160-3a18-429d-9c96-7d19ee71fbb2" />
+  <Project Path="10/10.vcxproj" Id="dcd01db6-e864-41ea-97d7-3f68e916e688" />
+  <Project Path="11/11.vcxproj" Id="47bba45d-f890-4e91-84d0-6a74e84070d1" />
 </Solution>
