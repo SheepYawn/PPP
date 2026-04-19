@@ -41,4 +41,8 @@
       <Filter>PPP</Filter>
     </QtMoc>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="mars_copter.jpg" />
+    <Image Include="scandinavia.png" />
+  </ItemGroup>
 </Project>

@@ -113,7 +113,7 @@ int main(int /*argc*/, char* /*argv*/[])
     oss << "screen size: " << x_max() << "*" << y_max()
         << "; window size: " << win.x_max() << "*" << win.y_max();
     Text sizes{ Point{100,20},oss.str() };
-    Image scan{ Point{275,225},"scandinavia.jfif" };
+    Image scan{ Point{275,225},"scandinavia.png" };
     scan.scale(150, 200);
     win.attach(c);
     win.attach(m);
