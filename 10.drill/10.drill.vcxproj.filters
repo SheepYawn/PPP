@@ -41,4 +41,8 @@
       <Filter>PPP</Filter>
     </QtMoc>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="pat.jpg" />
+    <Image Include="The Scream(Cat Version).png" />
+  </ItemGroup>
 </Project>

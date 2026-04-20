@@ -114,6 +114,10 @@
     <ClInclude Include="PPP\std_lib_facilities.h" />
     <ClInclude Include="PPP\Window.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="pat.jpg" />
+    <Image Include="The Scream(Cat Version).png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />

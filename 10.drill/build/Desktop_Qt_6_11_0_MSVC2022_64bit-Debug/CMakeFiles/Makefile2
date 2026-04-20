@@ -69,8 +69,8 @@ clean: CMakeFiles\Programming_Qt_autogen.dir\clean
 # Target rules for target CMakeFiles/Programming_Qt.dir
 
 # All Build rule for target.
-CMakeFiles\Programming_Qt.dir\all: CMakeFiles\Programming_Qt_autogen.dir\all
 CMakeFiles\Programming_Qt.dir\all: CMakeFiles\Programming_Qt_autogen_timestamp_deps.dir\all
+CMakeFiles\Programming_Qt.dir\all: CMakeFiles\Programming_Qt_autogen.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Programming_Qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Programming_Qt.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Programming_Qt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Programming_Qt.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\Projects\Visual Studio\PPP\10.drill\build\Desktop_Qt_6_11_0_MSVC2022_64bit-Debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target Programming_Qt"
