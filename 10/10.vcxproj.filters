@@ -43,6 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="mars_copter.jpg" />
-    <Image Include="scandinavia.png" />
+    <Image Include="scandinavia.jpg" />
   </ItemGroup>
 </Project>

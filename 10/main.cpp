@@ -94,27 +94,34 @@ int main(int /*argc*/, char* /*argv*/[])
     t.set_font_size(20);
     win.set_label("Bold text");
     win.wait_for_button();
-
-    Image copter{ Point{100,50},"mars_copter.jpg" };
+                                                                   // Visual Studio环境，图片放在项目根目录；Qt环境，图片放在根目录build文件夹里的Debug后缀的文件夹里(可以看到.exe文件)
+    Image copter{ Point{100,50},"mars_copter.jpg" };               // 不要用.webp格式的图片，改.webp后缀为.jpg也不行，qt似乎不支持这个格式。
+    copter.scale(150, 150);
     win.attach(copter);
     win.set_label("Mars copter");
     win.wait_for_button();
 
-    copter.move(100, 250);
+    copter.move(200, 200);
     win.set_label("Move");
     win.wait_for_button();
 
     Circle c{ Point{100,200},50 };
+
     Ellipse e{ Point{100,200}, 75,25 };
+
     e.set_color(Color::dark_red);
+
     Mark m{ Point{100,200},'x' };
     m.set_color(Color::red);
+
     ostringstream oss;
     oss << "screen size: " << x_max() << "*" << y_max()
         << "; window size: " << win.x_max() << "*" << win.y_max();
     Text sizes{ Point{100,20},oss.str() };
-    Image scan{ Point{275,225},"scandinavia.png" };
+
+    Image scan{ Point{440,200},"scandinavia.jpg" };
     scan.scale(150, 200);
+
     win.attach(c);
     win.attach(m);
     win.attach(e);
@@ -122,5 +129,6 @@ int main(int /*argc*/, char* /*argv*/[])
     win.attach(scan);
     win.set_label("Final!");
     win.wait_for_button();
+
 
 }
