@@ -21,3 +21,6 @@ x86/
 *.pdb
 *.ilk
 *.exp
+
+# 忽略整个Qt构建输出目录
+build/
