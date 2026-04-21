@@ -45,4 +45,7 @@
     <Image Include="pat.jpg" />
     <Image Include="The Scream(Cat Version).png" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
 </Project>

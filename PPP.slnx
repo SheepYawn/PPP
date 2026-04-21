@@ -30,10 +30,15 @@
   <Project Path="10.drill/10.drill.vcxproj" Id="cd8a586f-ba68-41ad-bcd7-b3855c9e402c">
     <Platform Project="x64" />
   </Project>
+  <Project Path="10.exercises/10.exercises.vcxproj" Id="4069c630-cfc1-4327-a608-e6da41695d28">
+    <Platform Project="x64" />
+  </Project>
   <Project Path="10/10.vcxproj" Id="773840e4-9882-4a92-91ab-e3708ef977ca">
     <Platform Project="x64" />
   </Project>
-  <Project Path="11/11.vcxproj" Id="47bba45d-f890-4e91-84d0-6a74e84070d1" />
+  <Project Path="11/11.vcxproj" Id="78fba444-8e58-4415-8b6d-694ce8a9c2bb">
+    <Platform Project="x64" />
+  </Project>
   <Project Path="12/12.vcxproj" Id="53d7076f-0ace-4e22-8451-5a8dae2dc143" />
   <Project Path="13/13.vcxproj" Id="427580f9-4bc8-42e0-8e9f-941377db53e6" />
 </Solution>
