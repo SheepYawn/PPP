@@ -130,8 +130,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02.exercises.cpp" />
     <ClCompile Include="02.exercises.ixx" />
+    <ClCompile Include="exercises\Ex_02.ixx" />
+    <ClCompile Include="exercises\Ex_04.ixx" />
+    <ClCompile Include="exercises\Ex_05.ixx" />
+    <ClCompile Include="exercises\Ex_06.ixx" />
+    <ClCompile Include="exercises\Ex_07.ixx" />
+    <ClCompile Include="exercises\Ex_08.ixx" />
+    <ClCompile Include="exercises\Ex_09.ixx" />
+    <ClCompile Include="exercises\Ex_10.ixx" />
+    <ClCompile Include="exercises\Ex_11.ixx" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
