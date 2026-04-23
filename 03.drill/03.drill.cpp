@@ -67,17 +67,16 @@ void drill_6to9()
 		if (v1 > largest)
 		{
 			largest = v1;
-			l_bit = values.size() - 1;
+			l_bit = (int)values.size() - 1;
 			cout << "It's the largest so far." << endl;
 		}
 		if (v1 < smallest)
 		{
 			smallest = v1;
-			s_bit = values.size() - 1;
+			s_bit = (int)values.size() - 1;
 			cout << "It's the smallest so far." << endl;
 		}
-		sum += v1;
-		
+		sum += v1;	
 	}
 
 	if (values.size() != units.size())
