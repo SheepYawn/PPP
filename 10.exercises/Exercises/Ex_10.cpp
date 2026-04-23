@@ -1,5 +1,3 @@
-// Draw the source file diagram from §10.8.1.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 

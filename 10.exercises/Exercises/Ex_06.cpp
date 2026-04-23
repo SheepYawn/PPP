@@ -1,7 +1,3 @@
-// What happens when you draw a Shape that doesn’t fit inside its window? 
-// What happens when you draw a Window that doesn’t fit on your screen? 
-// Write two programs that illustrate these two phenomena.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 

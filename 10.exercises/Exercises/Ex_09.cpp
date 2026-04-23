@@ -1,6 +1,3 @@
-// Display an image on the screen, e.g., a photo of a friend. 
-// Label the image both with a title on the window and with a caption in the window.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 

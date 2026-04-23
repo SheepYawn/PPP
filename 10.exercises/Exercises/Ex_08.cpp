@@ -1,5 +1,3 @@
-// Draw the Olympic five rings. If you can’t remember the colors, look them up.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 

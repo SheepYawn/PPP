@@ -1,8 +1,3 @@
-// Draw a series of regular polygons, one inside the other. 
-// The innermost should be an equilateral triangle, enclosed by a square, enclosed by a pentagon, etc. 
-// For the mathematically adept only: let all the points of each N-polygon touch sides of the (N+1)-polygon. 
-// Hint: The trigonometric functions are found in <cmath> and module std
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 #include "PPP.h"

@@ -1,15 +1,3 @@
-// Ex_12
-// A superellipse is a two - dimensional shape defined by the equation | xa | m + | yb | n = 1; where m > 0 and n > 0.
-// Look up superellipse on the Web to get a better idea of what such shapes look like.
-// Write a program that draws “starlike” patterns by connecting points on a superellipse.
-// Take a, b, m, n, and N as arguments.Select N points on the superellipse defined by a, b, m, and n.
-// Make the points equally spaced for some definition of “equal.” 
-// Connect each of those N points to one or more other points
-// (if you like you can make the number of points to which to connect a point another argument or just use N–1, i.e., all the other points).
-// Ex_13
-// Find a way to add color to the lines from the previous exercise. 
-// Make some lines one color and other lines another color or other colors.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 #include "PPP.h"

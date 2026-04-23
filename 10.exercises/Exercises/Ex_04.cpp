@@ -1,5 +1,3 @@
-// Draw a 3-by-3 tic-tac-toe board of alternating white and red squares.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 

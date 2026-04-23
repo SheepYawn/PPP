@@ -1,5 +1,3 @@
-// Draw a 100-by-30 Rectangle and place the text “Howdy!” inside it.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 

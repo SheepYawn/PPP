@@ -1,6 +1,3 @@
-// Draw your initials 150 pixels high. Use a thick line. 
-// Draw each initial in a different color.
-
 #include "Exercises.h"
 #include "PPP/Simple_window.h"
 
