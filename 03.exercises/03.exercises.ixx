@@ -1,19 +1,19 @@
 export module exercises;
 
-
-export void exercise2();
-export void exercise3();
-export void exercise4();
-export void exercise5();
-export void check_exercise5();
-export void exercise6();
-export void exercise7();
-export void exercise9();
-export void exercise10();
-export void exercise11();
-export void exercise12();
-export void exercise14();
-export void exercise15();
-export void exercise16();
-export void exercise17();
-export void exercise18();
+export import Ex_02;
+export import Ex_03;
+export import Ex_04;
+export import Ex_05;
+export import Ex_06;
+export import Ex_07;
+export import Ex_08;
+export import Ex_09;
+export import Ex_10;
+export import Ex_11;
+export import Ex_12;
+export import Ex_13;
+export import Ex_14;
+export import Ex_15;
+export import Ex_16;
+export import Ex_17;
+export import Ex_18;
