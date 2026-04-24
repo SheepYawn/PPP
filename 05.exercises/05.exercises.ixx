@@ -1,9 +1,8 @@
 export module exercises;
 
-
-export void exercise4();
-export void exercise5();
-export void exercise6();
-export void exercise8();
+export import Ex_04;
+export import Ex_05;
+export import Ex_06;
+export import Ex_08;
 
 

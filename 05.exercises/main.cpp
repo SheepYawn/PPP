@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
 	try {
-		exercise4();
-		//exercise5();
-		//exercise6();
-		//exercise8();
+		//Ex_04();
+		//Ex_05();
+		//Ex_06();
+		Ex_08();
 
 	}
 	catch (exception& e)

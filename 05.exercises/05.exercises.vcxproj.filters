@@ -21,7 +21,16 @@
     <ClCompile Include="05.exercises.ixx">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="05.exercises.cpp">
+    <ClCompile Include="exercises\Ex_04.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exercises\Ex_05.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exercises\Ex_06.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exercises\Ex_08.ixx">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
