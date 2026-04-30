@@ -133,6 +133,10 @@
     <ClCompile Include="exercises\Ex_02.ixx">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Default</CompileAs>
     </ClCompile>
+    <ClCompile Include="exercises\Ex_03.ixx" />
+    <ClCompile Include="exercises\Ex_04.ixx" />
+    <ClCompile Include="exercises\Ex_05.ixx" />
+    <ClCompile Include="exercises\functions.ixx" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PPP.ixx" />
   </ItemGroup>

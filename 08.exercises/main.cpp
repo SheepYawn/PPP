@@ -5,7 +5,9 @@ int main()
 {
 	try
 	{
-		Ex_02();
+		//Ex_02();
+		//Ex_03();
+		Ex_04();
 
 		return 0;
 	}

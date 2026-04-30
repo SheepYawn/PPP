@@ -9,18 +9,22 @@
 
 export module Ex_02;
 
-export void Ex_02();
-
 import PPP;
+import functions;
 using namespace std;
 
-class Name_pairs
+export void Ex_02();
+//export class Name_pairs;
+
+export class Name_pairs
 {
 public:
 	void read_names();			// read a series of names
 	void read_ages();			// 给每个名字输入年龄
 	void print() const;			// 输出所有配对
 	void sort();				// 重新排序
+	const vector<string>& get_name() const{ return name; }
+	const vector<double>& get_age() const{ return age; }
 private:
 	vector<string> name;
 	vector<double> age;
@@ -109,35 +113,6 @@ bool vector_match(const vector<string>& v1, const vector<double>& v2)
 	return true;
 }
 
-void skip_to_double()
-{
-	if (cin.fail()) 
-	{                                                   // we found something that wasn’t an integer
-		cin.clear();                                             // we’d like to look at the characters
-		for (char ch; cin >> ch; ) 
-		{                      // throw away non-digits
-			if (isdigit(ch) || ch == '.' || ch == '-') 
-			{
-				cin.unget();                          // put the digit back, so that we can read the number
-				return;
-			}
-		}
-	}
-	PPP::error("no input");                                           // eof or bad: give up
-}
-
-double get_double()
-{
-	double num = 0;
-	while (true)
-	{
-		if (cin >> num)
-			return num;
-		cout << "Sorry, that was not a number; please try again " << '\n';
-		skip_to_double();
-	}
-}
-
 double get_age_of_name(const string& name)
 {
 	cout << "Please enter the age of " << name << '\n';
@@ -153,7 +128,7 @@ double get_age_of_name(const string& name)
 void Ex_02()
 {
 	Name_pairs nps;
-	nps.read_names();
+	nps.read_names();			// there are some default names defined in nps.name vector.
 	nps.read_ages();
 	nps.print();
 	nps.sort();
