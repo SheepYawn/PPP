@@ -40,6 +40,7 @@ ISBN::ISBN(int g, int p, int t, char c):group(g), publisher(p), title(t), check(
 }
 
 string ISBN::string_ISBN() const
+// 以字符串的形式输出ISBN的所有信息
 {
 	return 	to_string(group) + '-' +
 			to_string(publisher) + '-' +

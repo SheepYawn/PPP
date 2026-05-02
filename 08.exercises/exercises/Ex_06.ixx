@@ -25,6 +25,7 @@ ostream& operator<<(ostream& os, const ISBN& isbn)
 const vector<string> genre{ "fiction", "nonfiction", "periodical", "biography", "children" };
 
 string genre_to_string(Genre g)
+// 返回Genre类型值对应的字符串。
 {
 	int int_genre = PPP::narrow_cast<int>(g);
 	return genre[int_genre];
